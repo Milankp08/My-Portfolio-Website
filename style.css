@@ -1,0 +1,319 @@
+/* Global Styles */
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #84ffff;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 5px 20px;
+	background-image: url(https://wallpaperaccess.com/full/5651978.png);
+}
+
+/* Header Styles */
+header {
+	background-color:#212121;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 65px;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+}
+
+header nav ul li {
+	margin: 0 10px;
+}
+
+header nav ul li a {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	text-decoration: underline;
+	color: #c6c6ba;
+}
+
+/* Hero Section Styles */
+.hero {
+	padding: 100px 0;
+	text-align: center;
+}
+
+.hero .container {
+	padding: 20px 0;
+	box-shadow: 10px 10px black;
+}
+
+.hero img {
+	width: 23rem;
+	box-shadow: 5px 5px black;
+}
+
+.hero h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+}
+
+.hero a {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.hero a:hover {
+	background-color: #666;
+}
+
+/* About Section Styles */
+.about {
+	padding: 100px 0;
+}
+
+.about .container {
+	box-shadow: 10px 10px black;
+}
+
+.about h2 {
+	font-size: 2.5rem;
+	margin-bottom: 40px;
+}
+
+.about p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+.education {
+	padding: 100px 0;
+}
+
+.education .container {
+	box-shadow: 10px 10px black;
+}
+
+.education h2 {
+	font-size: 2.5rem;
+	margin-bottom: 40px;
+}
+
+.education ul {
+	list-style: none;
+}
+
+.education ul div {
+	padding: 20px;
+}
+
+.education li {
+	font-size: 1.1rem;
+	width: 100%;
+}
+
+/* Skills Section Styles */
+.skills {
+	padding: 100px 0;
+}
+
+.skills .container{
+	box-shadow: 10px 10px black;
+}
+
+.skills h2 {
+	font-size: 2.5rem;
+	margin-bottom: 40px;
+}
+
+.skills ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.skills li {
+	width: 30%;
+}
+
+.skills span {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.skills progress {
+	width: 100%;
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+/* Projects Section Styles */
+.projects {
+	padding: 100px 0;
+}
+
+.projects .container{
+	box-shadow: 10px 10px black;
+}
+
+.projects h2 {
+	font-size: 2.5rem;
+	margin-bottom: 40px;
+}
+
+.projects ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.projects li {
+	background-color: #f1f1f1;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.projects h3 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.projects p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+.contact {
+	background-color: #333;
+	padding: 100px 0;
+	padding-bottom: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.contact h2 {
+	font-size: 2.5rem;
+	margin-bottom: 40px;
+}
+
+.contact form {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.contact label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 400px;
+}
+
+.contact textarea {
+	height: 200px;
+}
+
+.contact button {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	width: 25rem;
+	margin: 0 auto;
+	background-color: #ecec19;
+	transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+	background-color: yellow;
+}
+
+.socials {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 6rem;
+}
+
+.socials #linkedin a img {
+	width: 4rem;
+	padding: 1rem;
+	margin: 0 1rem;
+}
+
+.socials #github a img {
+	width: 4rem;
+	padding: 1rem;
+	margin: 0 1rem;
+}
+
+.socials #insta a img {
+	width: 4rem;
+	padding: 1rem;
+	margin: 0 1rem;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #f7f7f7;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+footer a {
+	color: #333;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+footer a:hover {
+	color: #666;
+}
